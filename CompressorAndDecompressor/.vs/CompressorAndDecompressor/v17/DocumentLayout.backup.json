@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "D:\\CompressorAndDecompressor\\CompressorAndDecompressor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\CompressorAndDecompressor\\CompressorAndDecompressor\\compressoranddecompressor\\compress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|d:\\compressoranddecompressor\\compressoranddecompressor\\compressoranddecompressor\\compress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\compress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|d:\\compressoranddecompressor\\compressoranddecompressor\\compressoranddecompressor\\compress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\CompressorAndDecompressor\\CompressorAndDecompressor\\compressoranddecompressor\\compress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\compress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|d:\\compressoranddecompressor\\compressoranddecompressor\\compressoranddecompressor\\folderdecompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\CompressorAndDecompressor\\CompressorAndDecompressor\\compressoranddecompressor\\folderdecompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\folderdecompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\foldercompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|d:\\compressoranddecompressor\\compressoranddecompressor\\compressoranddecompressor\\huffmanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\CompressorAndDecompressor\\CompressorAndDecompressor\\compressoranddecompressor\\huffmanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\huffmanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "CompressorAndDecompressor\\HuffmanService.cs",
               "ViewState": "AgIAAK8AAAAAAAAAAAAIwM4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T07:15:46.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T07:15:46.036Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "CompressorAndDecompressor\\FolderDecompressor.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T19:54:17.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T19:54:17.088Z"
             },
             {
               "$type": "Document",
@@ -82,7 +80,7 @@
               "RelativeDocumentMoniker": "CompressorAndDecompressor\\Compress.cs",
               "ToolTip": "D:\\CompressorAndDecompressor\\CompressorAndDecompressor\\CompressorAndDecompressor\\Compress.cs",
               "RelativeToolTip": "CompressorAndDecompressor\\Compress.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAUwHMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwFkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T18:38:29.681Z",
               "EditorCaption": ""
@@ -97,8 +95,7 @@
               "RelativeToolTip": "CompressorAndDecompressor\\FolderCompressor.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T18:37:47.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T18:37:47.239Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "ToolTip": "D:\\CompressorAndDecompressor\\CompressorAndDecompressor\\CompressorAndDecompressor\\Compress.cs [Design]",
               "RelativeToolTip": "CompressorAndDecompressor\\Compress.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T12:10:41.18Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-05T12:10:41.18Z"
             },
             {
               "$type": "Document",
@@ -121,8 +117,7 @@
               "ToolTip": "D:\\CompressorAndDecompressor\\CompressorAndDecompressor\\CompressorAndDecompressor\\Form1.cs [Design]",
               "RelativeToolTip": "CompressorAndDecompressor\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T11:18:55.938Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-05T11:18:55.938Z"
             },
             {
               "$type": "Document",
@@ -134,8 +129,7 @@
               "RelativeToolTip": "CompressorAndDecompressor\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T11:59:39.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T11:59:39.507Z"
             },
             {
               "$type": "Document",
@@ -147,8 +141,7 @@
               "RelativeToolTip": "CompressorAndDecompressor\\Form1.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAQwBoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T11:49:23.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T11:49:23.336Z"
             }
           ]
         }
