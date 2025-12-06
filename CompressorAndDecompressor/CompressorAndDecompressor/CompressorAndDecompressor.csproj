@@ -53,12 +53,14 @@
       <DependentUpon>Compress.cs</DependentUpon>
     </Compile>
     <Compile Include="FolderCompressor.cs" />
+    <Compile Include="FolderDecompressor.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HuffmanService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Compress.resx">

@@ -61,5 +61,57 @@ namespace CompressorAndDecompressor
                 }
             }
         }
+
+        private void txtFolderPath_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // 1) Archive (.huff) select karo
+                string archivePath;
+                using (var openDialog = new OpenFileDialog())
+                {
+                    openDialog.Filter = "Huffman Archive (*.huff)|*.huff";
+                    openDialog.Title = "Select Huffman Archive";
+
+                    if (openDialog.ShowDialog() != DialogResult.OK)
+                    {
+                        MessageBox.Show("Archive select nahi kia. Operation cancel.");
+                        return;
+                    }
+
+                    archivePath = openDialog.FileName;
+                }
+
+                // 2) Output folder select karo
+                string outputFolder;
+                using (var folderDialog = new FolderBrowserDialog())
+                {
+                    folderDialog.Description = "Select folder to save decompressed files";
+
+                    if (folderDialog.ShowDialog() != DialogResult.OK)
+                    {
+                        MessageBox.Show("Output folder select nahi kia. Operation cancel.");
+                        return;
+                    }
+
+                    outputFolder = folderDialog.SelectedPath;
+                }
+
+                // 3) Actual decompression
+                var decompressor = new CompressorAndDecompressor.FolderDecompressor();
+                decompressor.DecompressArchive(archivePath, outputFolder);
+
+                MessageBox.Show("Archive decompressed successfully!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error while decompressing:\n\n" + ex.ToString());
+            }
+        }
     }
 }
