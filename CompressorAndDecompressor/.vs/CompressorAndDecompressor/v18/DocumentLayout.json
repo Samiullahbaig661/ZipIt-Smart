@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|d:\\projects\\c# projects\\dsa-project\\zipit-smart\\compressoranddecompressor\\compressoranddecompressor\\compress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\compress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\compressoranddecompressor\\compress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\compress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\compressoranddecompressor\\decompress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\decompress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\compressoranddecompressor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\compressoranddecompressor\\decompress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\decompress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\compressoranddecompressor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|d:\\projects\\c# projects\\dsa-project\\zipit-smart\\compressoranddecompressor\\compressoranddecompressor\\imagecompressordecompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\imagecompressordecompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\compressoranddecompressor\\huffmanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\huffmanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\compressoranddecompressor\\folderdecompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\folderdecompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\compressoranddecompressor\\foldercompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\foldercompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\compressoranddecompressor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7514365A-6403-4232-9876-38CC3E9F0365}|CompressorAndDecompressor\\CompressorAndDecompressor.csproj|solutionrelative:compressoranddecompressor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Compress.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Compress.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\Compress.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Compress.cs [Design]",
+              "RelativeToolTip": "CompressorAndDecompressor\\Compress.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:45:18.412Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Decompress.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Decompress.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\Decompress.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Decompress.cs [Design]",
+              "RelativeToolTip": "CompressorAndDecompressor\\Decompress.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T14:08:39.857Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Compress.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Compress.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\Compress.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Compress.cs",
+              "RelativeToolTip": "CompressorAndDecompressor\\Compress.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:45:18.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Form1.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\Form1.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Form1.cs [Design]",
+              "RelativeToolTip": "CompressorAndDecompressor\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:45:18.413Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Decompress.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Decompress.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\Decompress.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Decompress.cs",
+              "RelativeToolTip": "CompressorAndDecompressor\\Decompress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T14:08:54.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Form1.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\Form1.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Form1.cs",
+              "RelativeToolTip": "CompressorAndDecompressor\\Form1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAlwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:45:18.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImageCompressorDecompressor.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\ImageCompressorDecompressor.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\ImageCompressorDecompressor.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\ImageCompressorDecompressor.cs",
+              "RelativeToolTip": "CompressorAndDecompressor\\ImageCompressorDecompressor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T15:17:39.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HuffmanService.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\HuffmanService.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\HuffmanService.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\HuffmanService.cs",
+              "RelativeToolTip": "CompressorAndDecompressor\\HuffmanService.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAAAMgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:45:18.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FolderDecompressor.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\FolderDecompressor.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\FolderDecompressor.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\FolderDecompressor.cs",
+              "RelativeToolTip": "CompressorAndDecompressor\\FolderDecompressor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:45:18.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FolderCompressor.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\FolderCompressor.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\FolderCompressor.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\FolderCompressor.cs",
+              "RelativeToolTip": "CompressorAndDecompressor\\FolderCompressor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:45:18.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Program.cs",
+              "RelativeDocumentMoniker": "CompressorAndDecompressor\\Program.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\DSA-Project\\ZipIt-Smart\\CompressorAndDecompressor\\CompressorAndDecompressor\\Program.cs",
+              "RelativeToolTip": "CompressorAndDecompressor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:45:18.415Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
