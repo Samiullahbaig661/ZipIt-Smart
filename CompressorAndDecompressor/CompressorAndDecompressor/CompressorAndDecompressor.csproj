@@ -52,6 +52,12 @@
     <Compile Include="Compress.Designer.cs">
       <DependentUpon>Compress.cs</DependentUpon>
     </Compile>
+    <Compile Include="Decompress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Decompress.Designer.cs">
+      <DependentUpon>Decompress.cs</DependentUpon>
+    </Compile>
     <Compile Include="FolderCompressor.cs" />
     <Compile Include="FolderDecompressor.cs" />
     <Compile Include="Form1.cs">
@@ -65,6 +71,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Compress.resx">
       <DependentUpon>Compress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Decompress.resx">
+      <DependentUpon>Decompress.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
