@@ -31,3 +31,15 @@ D:\UNI Work\SEM_3\DSA Project\DSA Project\ZipIt-Smart\CompressorAndDecompressor\
 D:\UNI Work\SEM_3\DSA Project\DSA Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.csproj.CoreCompileInputs.cache
 D:\UNI Work\SEM_3\DSA Project\DSA Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.exe
 D:\UNI Work\SEM_3\DSA Project\DSA Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.pdb
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\bin\Debug\CompressorAndDecompressor.exe
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\bin\Debug\CompressorAndDecompressor.exe.config
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.csproj.AssemblyReference.cache
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.Compress.resources
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.Decompress.resources
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.Form1.resources
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.Properties.Resources.resources
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.csproj.GenerateResource.cache
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.csproj.CoreCompileInputs.cache
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.exe
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\obj\Debug\CompressorAndDecompressor.pdb
+D:\Projects\C# projects\DSA-Project\ZipIt-Smart\CompressorAndDecompressor\CompressorAndDecompressor\bin\Debug\CompressorAndDecompressor.pdb

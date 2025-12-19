@@ -28,5 +28,12 @@ namespace CompressorAndDecompressor
             f2.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Decompress decompressPage = new Decompress();
+            decompressPage.Show();
+            this.Hide();
+        }
     }
 }
