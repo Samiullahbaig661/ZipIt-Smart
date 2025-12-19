@@ -3,7 +3,7 @@ using System.IO;
 
 namespace CompressorAndDecompressor
 {
-    internal class FolderDecompressor
+    public class FolderDecompressor
     {
         public void DecompressArchive(string inputArchivePath, string outputFolderPath)
         {

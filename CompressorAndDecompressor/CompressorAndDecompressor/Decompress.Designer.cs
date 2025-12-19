@@ -31,9 +31,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -48,6 +45,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtFolderPath = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.backButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,27 +82,6 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(182, 340);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(324, 22);
-            this.textBox5.TabIndex = 41;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(182, 247);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(324, 22);
-            this.textBox4.TabIndex = 40;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(182, 151);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(324, 22);
-            this.textBox1.TabIndex = 39;
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(529, 126);
@@ -123,6 +100,7 @@
             this.button6.TabIndex = 37;
             this.button6.Text = "Decompress";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -167,6 +145,7 @@
             this.button4.TabIndex = 32;
             this.button4.Text = "Decompress";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -176,6 +155,7 @@
             this.button3.TabIndex = 31;
             this.button3.Text = "Browse";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox2
             // 
@@ -229,15 +209,25 @@
             this.label2.TabIndex = 24;
             this.label2.Text = "Folders";
             // 
+            // backButton
+            // 
+            this.backButton.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.backButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.backButton.Location = new System.Drawing.Point(647, 379);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(93, 43);
+            this.backButton.TabIndex = 39;
+            this.backButton.Text = "Back to Home Page";
+            this.backButton.UseVisualStyleBackColor = false;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
             // Decompress
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -268,9 +258,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
@@ -285,5 +272,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtFolderPath;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button backButton;
     }
 }
