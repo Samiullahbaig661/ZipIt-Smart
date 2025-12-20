@@ -102,7 +102,7 @@ ZipITSmart/
 │
 ├── ZipITSmart.sln
 │
-├── Screenshots/
+├── Images/
 │   ├── HomePage-UI.png
 │   ├── Compressor-UI.png
 │   └── Decompressor-UI.png
