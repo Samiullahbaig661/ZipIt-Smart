@@ -34,13 +34,13 @@ It provides a simple UI for selecting files/folders and automatically handles co
 
 ## Screenshots 🖼️
 
-![Home UI](screenshots/home_page.png)  
+![Home UI](Images/HomePage-UI.PNG)  
 *Home page with Compression/Decompression options.*
 
-![Compress UI](screenshots/compress_page.png)  
+![Compress UI](Images/Compressor-UI.PNG)  
 *Compression page with File/Image/Folder options.*
 
-![Decompress UI](screenshots/decompress_page.png)  
+![Decompress UI](Images/Decompressor-UI.PNG)  
 *Decompression page with folder/file selection.*
 
 ---
@@ -102,7 +102,7 @@ ZipITSmart/
 │
 ├── ZipITSmart.sln
 │
-├── Screenshots/
+├── Images/
 │   ├── HomePage-UI.png
 │   ├── Compressor-UI.png
 │   └── Decompressor-UI.png

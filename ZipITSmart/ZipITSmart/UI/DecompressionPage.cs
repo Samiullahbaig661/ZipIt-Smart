@@ -22,7 +22,7 @@ namespace ZipITSmart.UI
         private void btnBrowse_Click(object sender, EventArgs e)
         {
             using var ofd = new OpenFileDialog();
-            ofd.Filter = "Compressed Files|*.huf"; 
+            ofd.Filter = "Compressed Files|*.huf";
             ofd.Multiselect = false;
 
             if (ofd.ShowDialog() == DialogResult.OK)
@@ -106,6 +106,13 @@ namespace ZipITSmart.UI
         private void DecompressionPage_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Close();
         }
     }
 }

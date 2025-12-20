@@ -7,7 +7,6 @@
         private System.Windows.Forms.TextBox txtInput;
         private System.Windows.Forms.Button btnBrowse;
         private System.Windows.Forms.Button btnDecompress;
-        private System.Windows.Forms.Label label1;
 
         protected override void Dispose(bool disposing)
         {
@@ -18,96 +17,138 @@
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DecompressionPage));
             cmbType = new ComboBox();
             txtInput = new TextBox();
             btnBrowse = new Button();
             btnDecompress = new Button();
-            label1 = new Label();
-            Back_btn = new Button();
             label2 = new Label();
+            button1 = new Button();
+            panel1 = new Panel();
+            button4 = new Button();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // cmbType
             // 
             cmbType.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbType.Font = new Font("Times New Roman", 12.75F, FontStyle.Bold);
             cmbType.Items.AddRange(new object[] { "File", "Folder", "Image" });
-            cmbType.Location = new Point(171, 104);
+            cmbType.Location = new Point(161, 92);
             cmbType.Name = "cmbType";
-            cmbType.Size = new Size(152, 23);
+            cmbType.Size = new Size(283, 27);
             cmbType.TabIndex = 1;
             // 
             // txtInput
             // 
-            txtInput.Location = new Point(63, 147);
+            txtInput.Font = new Font("Times New Roman", 12.75F, FontStyle.Bold);
+            txtInput.Location = new Point(161, 154);
             txtInput.Name = "txtInput";
-            txtInput.Size = new Size(260, 23);
+            txtInput.Size = new Size(283, 27);
             txtInput.TabIndex = 2;
             // 
             // btnBrowse
             // 
-            btnBrowse.Location = new Point(353, 146);
+            btnBrowse.BackColor = Color.DarkCyan;
+            btnBrowse.FlatAppearance.BorderColor = Color.FromArgb(192, 64, 0);
+            btnBrowse.FlatAppearance.BorderSize = 0;
+            btnBrowse.FlatStyle = FlatStyle.Flat;
+            btnBrowse.Font = new Font("Britannic Bold", 12F);
+            btnBrowse.Location = new Point(46, 153);
             btnBrowse.Name = "btnBrowse";
-            btnBrowse.Size = new Size(75, 23);
+            btnBrowse.Size = new Size(76, 30);
             btnBrowse.TabIndex = 3;
             btnBrowse.Text = "Browse";
+            btnBrowse.UseVisualStyleBackColor = false;
             btnBrowse.Click += btnBrowse_Click;
             // 
             // btnDecompress
             // 
-            btnDecompress.Location = new Point(235, 214);
+            btnDecompress.BackColor = Color.DarkCyan;
+            btnDecompress.BackgroundImageLayout = ImageLayout.Center;
+            btnDecompress.FlatStyle = FlatStyle.Popup;
+            btnDecompress.Font = new Font("Gill Sans Ultra Bold", 14.25F);
+            btnDecompress.ForeColor = Color.White;
+            btnDecompress.Location = new Point(128, 223);
             btnDecompress.Name = "btnDecompress";
-            btnDecompress.Size = new Size(88, 29);
+            btnDecompress.Size = new Size(241, 41);
             btnDecompress.TabIndex = 4;
-            btnDecompress.Text = "Decompress";
+            btnDecompress.Text = "DECOMPRESS";
+            btnDecompress.UseVisualStyleBackColor = false;
             btnDecompress.Click += btnDecompress_Click;
-            // 
-            // label1
-            // 
-            label1.Location = new Point(76, 107);
-            label1.Name = "label1";
-            label1.Size = new Size(73, 23);
-            label1.TabIndex = 0;
-            label1.Text = "Select Type";
-            // 
-            // Back_btn
-            // 
-            Back_btn.Location = new Point(453, 234);
-            Back_btn.Name = "Back_btn";
-            Back_btn.Size = new Size(75, 23);
-            Back_btn.TabIndex = 6;
-            Back_btn.Text = "Back";
-            Back_btn.UseVisualStyleBackColor = true;
-            Back_btn.Click += Back_btn_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Times New Roman", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(167, 22);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(152, 14);
             label2.Name = "label2";
             label2.Size = new Size(208, 36);
             label2.TabIndex = 7;
             label2.Text = "Decompressor";
             label2.Click += label2_Click;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.DarkCyan;
+            button1.FlatAppearance.BorderColor = Color.FromArgb(192, 64, 0);
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Britannic Bold", 11F);
+            button1.ImageAlign = ContentAlignment.TopCenter;
+            button1.Location = new Point(43, 90);
+            button1.Name = "button1";
+            button1.Size = new Size(87, 32);
+            button1.TabIndex = 8;
+            button1.Text = "Select Type";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Transparent;
+            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(button4);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(btnBrowse);
+            panel1.Controls.Add(txtInput);
+            panel1.Controls.Add(cmbType);
+            panel1.Controls.Add(btnDecompress);
+            panel1.Location = new Point(12, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(515, 322);
+            panel1.TabIndex = 9;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(415, 280);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 23);
+            button4.TabIndex = 5;
+            button4.Text = "Back";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // DecompressionPage
             // 
-            ClientSize = new Size(540, 269);
-            Controls.Add(label2);
-            Controls.Add(Back_btn);
-            Controls.Add(label1);
-            Controls.Add(cmbType);
-            Controls.Add(txtInput);
-            Controls.Add(btnBrowse);
-            Controls.Add(btnDecompress);
+            BackColor = Color.Black;
+            ClientSize = new Size(539, 346);
+            Controls.Add(panel1);
             Name = "DecompressionPage";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Decompression";
             Load += DecompressionPage_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
-
-        private Button Back_btn;
         private Label label2;
+        private Button button1;
+        private Panel panel1;
+        private Button button4;
     }
 }
