@@ -122,6 +122,10 @@ ZipITSmart/
 
 ## Installation 💻
 
+You can get and run **ZipITSmart** in two ways:
+
+### 1. Using the GitHub Repository
+
 1. Clone the repository:
 
 ```bash
@@ -130,7 +134,14 @@ git clone https://github.com/Samiullahbaig661/ZipIt-Smart
 
 2. Open in **Visual Studio 2022** or higher.
 3. Build the solution (`Ctrl+Shift+B`).
-4. Run `ZipITSmart.UI` project.
+4. Run `program.cs`.
+
+### 2. Using the Precompiled Release
+
+1. Go to the [Releases](https://github.com/Samiullahbaig661/ZipIt-Smart/releases) page on GitHub.
+2. Download the latest **Release ZIP**.
+3. Extract the ZIP file to a folder of your choice.
+4. Run the `ZipITSmart.exe` file inside the folder. The project will launch directly.
 
 ---
 
