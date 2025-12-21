@@ -22,9 +22,9 @@
             txtInput = new TextBox();
             btnBrowse = new Button();
             btnCompress = new Button();
-            Back_btn = new Button();
             label2 = new Label();
             panel1 = new Panel();
+            button4 = new Button();
             button1 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -56,9 +56,9 @@
             btnBrowse.FlatStyle = FlatStyle.Flat;
             btnBrowse.Font = new Font("Britannic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnBrowse.ImageAlign = ContentAlignment.TopCenter;
-            btnBrowse.Location = new Point(46, 154);
+            btnBrowse.Location = new Point(29, 153);
             btnBrowse.Name = "btnBrowse";
-            btnBrowse.Size = new Size(76, 30);
+            btnBrowse.Size = new Size(101, 30);
             btnBrowse.TabIndex = 3;
             btnBrowse.Text = "Browse";
             btnBrowse.UseVisualStyleBackColor = false;
@@ -81,16 +81,6 @@
             btnCompress.UseVisualStyleBackColor = false;
             btnCompress.Click += btnCompress_Click;
             // 
-            // Back_btn
-            // 
-            Back_btn.Location = new Point(415, 280);
-            Back_btn.Name = "Back_btn";
-            Back_btn.Size = new Size(75, 23);
-            Back_btn.TabIndex = 5;
-            Back_btn.Text = "Back";
-            Back_btn.UseVisualStyleBackColor = true;
-            Back_btn.Click += Back_btn_Click;
-            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -110,17 +100,31 @@
             panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
             panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(button4);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(cmbType);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(btnBrowse);
-            panel1.Controls.Add(Back_btn);
             panel1.Controls.Add(txtInput);
             panel1.Controls.Add(btnCompress);
             panel1.Location = new Point(12, 12);
             panel1.Name = "panel1";
             panel1.Size = new Size(515, 322);
             panel1.TabIndex = 7;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Maroon;
+            button4.FlatStyle = FlatStyle.Popup;
+            button4.Font = new Font("Times New Roman", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(430, 271);
+            button4.Name = "button4";
+            button4.Size = new Size(69, 35);
+            button4.TabIndex = 8;
+            button4.Text = "Back";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button1
             // 
@@ -130,9 +134,9 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Britannic Bold", 11F);
             button1.ImageAlign = ContentAlignment.TopCenter;
-            button1.Location = new Point(43, 88);
+            button1.Location = new Point(29, 88);
             button1.Name = "button1";
-            button1.Size = new Size(87, 32);
+            button1.Size = new Size(101, 32);
             button1.TabIndex = 7;
             button1.Text = "Select Type";
             button1.UseVisualStyleBackColor = false;
@@ -151,10 +155,9 @@
             panel1.PerformLayout();
             ResumeLayout(false);
         }
-
-        private Button Back_btn;
         private Label label2;
         private Panel panel1;
         private Button button1;
+        private Button button4;
     }
 }

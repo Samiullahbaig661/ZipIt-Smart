@@ -111,6 +111,10 @@ ZipITSmart/
 │   ├── Project-Proposal.pdf
 │   └── Project-Report.pdf
 │
+├── .gitignore
+│
+├── LICENSE
+│
 └── README.md
 
 ````

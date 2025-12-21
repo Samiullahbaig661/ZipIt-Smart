@@ -19,15 +19,15 @@ namespace ZipITSmart.Services
             using var fs = new FileStream(outputPath, FileMode.Create);
             using var bw = new BinaryWriter(fs);
 
-            bw.Write((byte)'I'); // marker for image
+            bw.Write((byte)'I'); 
             bw.Write(formatByte);
             bw.Write(compressed.Length);
             bw.Write(compressed);
 
             return new CompressionResult
             {
-                OriginalSize = data.Length,
-                CompressedSize = compressed.Length
+                OriginalSize = compressed.Length,
+                CompressedSize = data.Length
             };
         }
 
@@ -51,8 +51,8 @@ namespace ZipITSmart.Services
 
             return new CompressionResult
             {
-                OriginalSize = data.Length,
-                CompressedSize = compressed.Length
+                OriginalSize = compressed.Length,
+                CompressedSize = data.Length
             };
         }
 

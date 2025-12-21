@@ -40,7 +40,6 @@ namespace ZipITSmart.UI
                     return;
                 }
 
-                // Determine type of compressed file
                 byte marker;
                 using (var fs = new FileStream(inputPath, FileMode.Open, FileAccess.Read))
                 {
@@ -49,7 +48,7 @@ namespace ZipITSmart.UI
 
                 string outputPath = "";
 
-                if (marker == (byte)'D') // Folder
+                if (marker == (byte)'D') 
                 {
                     using (FolderBrowserDialog fbd = new FolderBrowserDialog())
                     {
@@ -60,15 +59,15 @@ namespace ZipITSmart.UI
                             return;
                     }
                 }
-                else // Image or File
+                else 
                 {
                     using (SaveFileDialog sfd = new SaveFileDialog())
                     {
                         sfd.Title = "Select location for decompressed file";
 
-                        if (marker == (byte)'I') // Image
+                        if (marker == (byte)'I') 
                             sfd.Filter = "Images|*.jpg;*.jpeg;*.png;*.bmp;*.gif;*.tiff";
-                        else // File
+                        else 
                             sfd.Filter = "All Files|*.*";
 
                         sfd.FileName = Path.GetFileNameWithoutExtension(inputPath);

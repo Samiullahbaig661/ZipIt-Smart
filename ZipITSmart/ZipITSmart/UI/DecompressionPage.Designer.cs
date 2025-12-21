@@ -54,9 +54,9 @@
             btnBrowse.FlatAppearance.BorderSize = 0;
             btnBrowse.FlatStyle = FlatStyle.Flat;
             btnBrowse.Font = new Font("Britannic Bold", 12F);
-            btnBrowse.Location = new Point(46, 153);
+            btnBrowse.Location = new Point(31, 153);
             btnBrowse.Name = "btnBrowse";
-            btnBrowse.Size = new Size(76, 30);
+            btnBrowse.Size = new Size(109, 30);
             btnBrowse.TabIndex = 3;
             btnBrowse.Text = "Browse";
             btnBrowse.UseVisualStyleBackColor = false;
@@ -98,9 +98,9 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Britannic Bold", 11F);
             button1.ImageAlign = ContentAlignment.TopCenter;
-            button1.Location = new Point(43, 90);
+            button1.Location = new Point(31, 90);
             button1.Name = "button1";
-            button1.Size = new Size(87, 32);
+            button1.Size = new Size(109, 32);
             button1.TabIndex = 8;
             button1.Text = "Select Type";
             button1.UseVisualStyleBackColor = false;
@@ -125,12 +125,16 @@
             // 
             // button4
             // 
-            button4.Location = new Point(415, 280);
+            button4.BackColor = Color.Maroon;
+            button4.FlatStyle = FlatStyle.Popup;
+            button4.Font = new Font("Times New Roman", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(430, 272);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(69, 35);
             button4.TabIndex = 5;
             button4.Text = "Back";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // DecompressionPage
