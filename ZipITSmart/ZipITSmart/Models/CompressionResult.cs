@@ -14,7 +14,7 @@ namespace ZipITSmart.Models
             get
             {
                 if (OriginalSize == 0) return 0;
-                return (double)CompressedSize / OriginalSize;
+                return 1.0 - ((double)CompressedSize / OriginalSize);
             }
         }
     }

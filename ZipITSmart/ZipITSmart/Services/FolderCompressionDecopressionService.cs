@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using ZipITSmart.Core.Archive;
 using ZipITSmart.Core.Huffman;
 using ZipITSmart.Core.Interfaces;
 using ZipITSmart.Models;
@@ -17,7 +18,10 @@ namespace ZipITSmart.Services
             using var fs = new FileStream(outputPath, FileMode.Create);
             using var bw = new BinaryWriter(fs);
 
-            bw.Write((byte)'D'); // marker for folder
+            bw.Write((byte)'D');
+            new ArchiveHeader { Type = ArchiveType.Folder }.Write(bw);
+
+            bw.Write(Path.GetFileName(inputPath.TrimEnd(Path.DirectorySeparatorChar)));
             bw.Write(files.Length);
 
             foreach (var file in files)
@@ -36,14 +40,14 @@ namespace ZipITSmart.Services
 
             return new CompressionResult
             {
-                OriginalSize = originalTotal,
-                CompressedSize = compressedTotal
+                OriginalSize = compressedTotal,
+                CompressedSize = originalTotal
+
             };
         }
 
         public CompressionResult Decompress(string inputPath, string outputPath)
         {
-            Directory.CreateDirectory(outputPath);
             long originalTotal = 0;
             long compressedTotal = 0;
 
@@ -51,7 +55,15 @@ namespace ZipITSmart.Services
             using var br = new BinaryReader(fs);
 
             byte marker = br.ReadByte();
-            if (marker != 'D') throw new Exception("Not a valid compressed folder");
+            if (marker != 'D')
+                throw new Exception("Not a valid compressed folder");
+
+            ArchiveHeader.Read(br);
+
+            string folderName = br.ReadString();
+
+            string finalFolderPath = Path.Combine(outputPath, folderName);
+            Directory.CreateDirectory(finalFolderPath);
 
             int fileCount = br.ReadInt32();
 
@@ -61,10 +73,11 @@ namespace ZipITSmart.Services
                 int originalSize = br.ReadInt32();
                 int compressedSize = br.ReadInt32();
 
-                byte[] compressed = br.ReadBytes(compressedSize);
-                byte[] data = HuffmanService.Decompress(compressed);
+                byte[] compressedData = br.ReadBytes(compressedSize);
+                byte[] originalData = HuffmanService.Decompress(compressedData);
 
-                File.WriteAllBytes(Path.Combine(outputPath, fileName), data);
+                string filePath = Path.Combine(finalFolderPath, fileName);
+                File.WriteAllBytes(filePath, originalData);
 
                 originalTotal += originalSize;
                 compressedTotal += compressedSize;
@@ -72,8 +85,8 @@ namespace ZipITSmart.Services
 
             return new CompressionResult
             {
-                OriginalSize = originalTotal,
-                CompressedSize = compressedTotal
+                OriginalSize = compressedTotal,
+                CompressedSize = originalTotal
             };
         }
     }

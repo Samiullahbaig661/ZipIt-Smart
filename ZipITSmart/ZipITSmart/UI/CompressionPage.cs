@@ -38,7 +38,7 @@ namespace ZipITSmart.UI
                 if (fbd.ShowDialog() == DialogResult.OK)
                     txtInput.Text = fbd.SelectedPath;
             }
-            else 
+            else
             {
                 using var ofd = new OpenFileDialog();
                 ofd.Multiselect = false;
@@ -99,7 +99,7 @@ namespace ZipITSmart.UI
                         string outputPath = sfd.FileName;
                         CompressionResult result = _dispatcher.Compress(type, inputPath, outputPath);
 
-                        MessageBox.Show($"Compression successful!\nOriginal Size: {result.OriginalSize} bytes\nCompressed Size: {result.CompressedSize} bytes\nRatio: {result.CompressionRatio:P2}");
+                        MessageBox.Show($"Compression successful!\nOriginal Size: {result.OriginalSize} bytes\nCompressed Size: {result.CompressedSize} bytes\nSpace Saved: {result.CompressionRatio:P2}");
                     }
                 }
             }
@@ -131,6 +131,13 @@ namespace ZipITSmart.UI
         private void CompressionPage_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Close();
         }
     }
 }
