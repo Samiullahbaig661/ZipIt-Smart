@@ -36,7 +36,7 @@
             cmbType.Items.AddRange(new object[] { "File", "Folder", "Image" });
             cmbType.Location = new Point(161, 91);
             cmbType.Name = "cmbType";
-            cmbType.Size = new Size(283, 27);
+            cmbType.Size = new Size(283, 32);
             cmbType.TabIndex = 1;
             cmbType.SelectedIndexChanged += cmbType_SelectedIndexChanged;
             // 
@@ -45,7 +45,7 @@
             txtInput.Font = new Font("Times New Roman", 12.75F, FontStyle.Bold);
             txtInput.Location = new Point(162, 156);
             txtInput.Name = "txtInput";
-            txtInput.Size = new Size(283, 27);
+            txtInput.Size = new Size(283, 32);
             txtInput.TabIndex = 2;
             // 
             // btnBrowse
@@ -89,7 +89,7 @@
             label2.ForeColor = Color.WhiteSmoke;
             label2.Location = new Point(162, 14);
             label2.Name = "label2";
-            label2.Size = new Size(180, 36);
+            label2.Size = new Size(228, 45);
             label2.TabIndex = 6;
             label2.Text = "Compressor";
             label2.Click += label2_Click;
@@ -140,6 +140,7 @@
             button1.TabIndex = 7;
             button1.Text = "Select Type";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // CompressionPage
             // 

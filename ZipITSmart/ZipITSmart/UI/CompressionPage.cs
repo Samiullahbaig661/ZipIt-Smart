@@ -20,6 +20,7 @@ namespace ZipITSmart.UI
         {
             InitializeComponent();
             cmbType.SelectedIndex = 1;
+            button1.Enabled = false;
         }
 
         private void btnBrowse_Click(object sender, EventArgs e)
@@ -138,6 +139,11 @@ namespace ZipITSmart.UI
             HomePage homePage = new HomePage();
             homePage.Show();
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

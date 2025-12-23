@@ -12,12 +12,31 @@ namespace ZipITSmart.Services
     {
         private readonly Dictionary<string, byte> fileFormats = new()
         {
-            { ".txt", 0x01 },
-            { ".doc", 0x02 },
+            { ".txt",  0x01 },
+            { ".doc",  0x02 },
             { ".docx", 0x03 },
-            { ".ppt", 0x04 },
+            { ".ppt",  0x04 },
             { ".pptx", 0x05 },
-            { ".pdf", 0x06 }
+            { ".pdf",  0x06 },
+
+            // Very suitable text based formats
+            { ".csv",  0x07 },
+            { ".log",  0x08 },
+            { ".xml",  0x09 },
+            { ".json", 0x0A },
+            { ".html", 0x0B },
+            { ".css",  0x0C },
+            { ".js",   0x0D },
+            { ".md",   0x0E },
+            { ".ini",  0x0F },
+            { ".yaml", 0x10 },
+            { ".sql",  0x11 },
+
+            // Source code files
+            { ".py",   0x12 },
+            { ".java", 0x13 },
+            { ".c",    0x14 },
+            { ".cpp",  0x15 }
         };
 
         private readonly Dictionary<byte, string> formatExtensions;
@@ -38,7 +57,7 @@ namespace ZipITSmart.Services
             using var fs = new FileStream(outputPath, FileMode.Create);
             using var bw = new BinaryWriter(fs);
 
-            bw.Write((byte)'F'); // marker for file
+            bw.Write((byte)'F');
             bw.Write(formatByte);
             bw.Write(compressed.Length);
             bw.Write(compressed);
@@ -56,16 +75,18 @@ namespace ZipITSmart.Services
             using var br = new BinaryReader(fs);
 
             byte marker = br.ReadByte();
-            if (marker != 'F') throw new Exception("Not a valid compressed file");
+            if (marker != 'F')
+                throw new Exception("Not a valid compressed file");
 
             byte formatByte = br.ReadByte();
-            string extension = formatExtensions.ContainsKey(formatByte) ? formatExtensions[formatByte] : ".dat";
+            string extension = formatExtensions.ContainsKey(formatByte)
+                ? formatExtensions[formatByte]
+                : ".dat";
 
             int length = br.ReadInt32();
             byte[] compressed = br.ReadBytes(length);
             byte[] data = HuffmanService.Decompress(compressed);
 
-            // Ensure output path includes filename + extension
             string finalPath = Path.ChangeExtension(outputPath, extension);
             File.WriteAllBytes(finalPath, data);
 

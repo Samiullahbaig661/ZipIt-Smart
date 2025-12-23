@@ -17,6 +17,7 @@ namespace ZipITSmart.UI
         {
             InitializeComponent();
             cmbType.SelectedIndex = 1;
+            button1.Enabled = false;
         }
 
         private void btnBrowse_Click(object sender, EventArgs e)
@@ -48,7 +49,7 @@ namespace ZipITSmart.UI
 
                 string outputPath = "";
 
-                if (marker == (byte)'D') 
+                if (marker == (byte)'D')
                 {
                     using (FolderBrowserDialog fbd = new FolderBrowserDialog())
                     {
@@ -59,15 +60,15 @@ namespace ZipITSmart.UI
                             return;
                     }
                 }
-                else 
+                else
                 {
                     using (SaveFileDialog sfd = new SaveFileDialog())
                     {
                         sfd.Title = "Select location for decompressed file";
 
-                        if (marker == (byte)'I') 
+                        if (marker == (byte)'I')
                             sfd.Filter = "Images|*.jpg;*.jpeg;*.png;*.bmp;*.gif;*.tiff";
-                        else 
+                        else
                             sfd.Filter = "All Files|*.*";
 
                         sfd.FileName = Path.GetFileNameWithoutExtension(inputPath);
@@ -112,6 +113,11 @@ namespace ZipITSmart.UI
             HomePage homePage = new HomePage();
             homePage.Show();
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
